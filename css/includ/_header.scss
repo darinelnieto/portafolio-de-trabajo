@@ -1,0 +1,74 @@
+.banner{
+	background-image: url(../../img/background-fondo-banner-06.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.fotoPerfilBanner{
+    width: 68%;
+    border-radius: 0 0 50% 50%;
+}
+.imagenBannerDerecha{
+    width: 100%;
+}
+.nombreBanner, .profeccion{
+    font-family: 'raleway';
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.tituloDesarrollador{
+    color:white;
+    font-family: 'raleway';
+    font-style: italic;
+    font-weight: 500;
+    background: linear-gradient(45deg,#1b0093 ,#140055);
+    text-align: center;
+    border-radius: 30px;
+    padding: 1% 0;
+    width: 340px;
+    margin: auto;
+}
+.LinkWork{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 1% 6%;
+    border-radius: 20px;
+    font-family: 'poppins';
+    font-weight: 500;
+}
+.LinkWork:hover{
+    background:white;
+    color:#140055;
+    font-weight: 800;
+}
+@media(max-width:600px){
+    .tituloDesarrollador{
+        width: 150px;
+        font-size: 14px;
+    }
+    .nombreBanner, .profeccion{
+        font-size: 16px;
+    }
+    .backgroundBanner{
+        padding-bottom: 2rem;
+        padding-top:2rem;
+    }
+}
+@media screen and (min-width:601px) and (max-width:991px){
+    .tituloDesarrollador{
+        width: 200px;
+        font-size: 20px;
+    }
+    .nombreBanner, .profeccion{
+        font-size: 19px;
+    }
+    .backgroundBanner{
+        padding-bottom: 3rem;
+        padding-top:3rem;
+    }
+}

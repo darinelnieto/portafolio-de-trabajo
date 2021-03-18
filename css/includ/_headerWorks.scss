@@ -1,0 +1,60 @@
+
+.bannerWorks{
+    background-image: url(../../img/banner-works-05.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.imagenDerecha{
+    width: 100%;
+}
+.imagenCuadrosBanner{
+    width: 90%;
+}
+.alineaBaner{
+    align-items: baseline;
+}
+.textoMisTrabajos{
+    position: absolute;
+    top: 23%;
+    left: 16%;
+    transform: translate(-2%, 5%);
+}
+.tituloBanersWorks{
+    color:#140055;
+    font-family: 'raleway';
+    font-style: italic;
+    font-weight: 500;
+}
+.parrafoMisTrabajosBanner{
+    color:#140055;
+    font-family: 'raleway';
+    font-weight: 400;
+}
+@media(max-width:600px){
+    .bannerWorks{
+        padding-bottom: 2rem;
+        padding-top:2rem;
+    }
+    .tituloBanersWorks{
+        font-size: 15px;
+    }
+    .parrafoMisTrabajosBanner{
+        font-size: 8px;
+    }
+}
+@media screen and (min-width:601px) and (max-width:991px){
+    .bannerWorks{
+        padding-bottom: 3rem;
+        padding-top:3rem;
+    }
+    .tituloBanersWorks{
+        font-size: 15px;
+    }
+    .parrafoMisTrabajosBanner{
+        font-size: 8px;
+    }
+}
