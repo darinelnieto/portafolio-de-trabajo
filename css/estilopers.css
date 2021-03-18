@@ -1,6 +1,6 @@
 /*font-family: 'PT Sans', sans-serif;*/
 .banner {
-  background-image: url(../../img/background-fondo-banner-06.png);
+  background-image: url(../img/background-fondo-banner-06.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -126,7 +126,7 @@ p {
 }
 
 .fondoAbout {
-  background-image: url(/assets/img/fondo-about-06.png);
+  background-image: url(../assets/img/fondo-about-06.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -163,7 +163,7 @@ p {
   src: url("fuentes/Poppins-Regular.ttf");
 }
 footer {
-  background-image: url(../../img/fond-footer-08.png);
+  background-image: url(../img/fond-footer-08.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -221,7 +221,7 @@ footer {
 }
 
 .bannerWorks {
-  background-image: url(../../img/banner-works-05.png);
+  background-image: url(../img/banner-works-05.png);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
