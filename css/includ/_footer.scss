@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "raleway";
+    src: url("fuentes/Raleway-Regular.ttf");
+}
+@font-face {
+    font-family: "poppins";
+    src: url("fuentes/Poppins-Regular.ttf");
+}
+footer{
+	background-image: url(../../img/fond-footer-08.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+.titulo{
+	color: white;
+	font-family: 'raleway';
+	font-weight: 500;
+}
+.footer, .linkFooter{
+	color: white;
+	font-family: 'raleway';
+	font-weight: 400;
+}
+.linkFooter:hover{
+	color: white;
+}
+.circuloSaltante{
+	width: 100px;
+}
+@keyframes pelotaSalta{
+    0%{transform: translate(40px, 30px);}
+    15%{transform: translate(80px, -30px);}
+    35%{transform: translate(120px, 30px);}
+    55%{transform: translate(160px, -30px);}
+    70%{transform: translate(120px, 30px);}
+	85%{transform: translate(80px, -30px);}
+	100%{transform: translate(40px, 30px);}
+}
+.circuloSaltante{
+    animation-duration: 5s;
+    animation-name: pelotaSalta;
+	animation-iteration-count: infinite;
+}

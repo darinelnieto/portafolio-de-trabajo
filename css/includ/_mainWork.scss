@@ -1,0 +1,25 @@
+.imgT{
+    height: 220px;
+}
+.linkAbout{
+    position: absolute;
+    top: -73px;
+    left: 29px;
+    border: 1px solid #140055;
+    padding: 1% 5%;
+    border-radius: 20px;
+    color: #140055;
+    font-family: 'raleway';
+    font-weight: 600;
+}
+.linkAbout:hover{
+    border: none;
+    background-color: #140055;
+    color: white !important;
+    text-decoration: none;
+}
+.imgT:hover{
+    filter: brightness(70%);
+    transition: 1s;
+    transform: scale(1.05) !important;
+}
